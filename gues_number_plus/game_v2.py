@@ -56,7 +56,7 @@ def bisection_predict(number: int = 1) -> int:
             l_board=predict_number
         if number < predict_number:
             u_board=predict_number    
-        print(predict_number, '-->', number)    
+        #print(predict_number, '-->', number)    
         
     return count
 
@@ -83,8 +83,6 @@ def score_game(predict_func) -> int:
     return score
 
 
-def rrg(s):
-    return s
 
 
 if __name__ == "__main__":
